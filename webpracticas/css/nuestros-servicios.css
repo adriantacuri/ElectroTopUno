@@ -1,0 +1,42 @@
+.servicios-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.servicios-section h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.servicio {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.servicio img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.servicio h3 {
+    font-size: 2.5em;
+    margin: 15px 0;
+}
+
+.servicio p {
+    font-size: 1.5em;
+    color: #666;
+}
+
+/* Estilos para dispositivos móviles */

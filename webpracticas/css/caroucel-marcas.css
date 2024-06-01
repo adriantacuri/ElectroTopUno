@@ -1,0 +1,81 @@
+/*Estilos de las marcas*/
+.main-content {
+    padding: 20px;
+} 
+
+.b-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.container-caroucel-marcas h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-caroucel {
+    overflow: hidden;
+    position: relative;
+    padding: 0 50px; /* Espacio para los botones */
+}
+
+.caroucel-mark {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card-feature {
+    flex: 1 0 25%; /* 4 por fila */
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.card-feature img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+/* Botones de control */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+/* Responsivo para móvil */
+@media (max-width: 768px) {
+    .card-feature {
+        flex: 1 0 50%; /* 2 por fila */
+    }
+    .container-caroucel {
+        padding: 0 10px; /* Reducir espacio para los botones */
+    }
+    .carousel-control {
+        
+        font-size: 18px;
+        padding: 5px;
+    }
+}
